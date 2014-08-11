@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2F5EFE199894C600579F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F5EFD199894C600579F4E /* main.m */; };
+		AA2F5F01199894C600579F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F5F00199894C600579F4E /* AppDelegate.m */; };
+		AA2F5F04199894C600579F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F5F03199894C600579F4E /* ViewController.m */; };
+		AA2F5F07199894C600579F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F5F05199894C600579F4E /* Main.storyboard */; };
+		AA2F5F09199894C600579F4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2F5F08199894C600579F4E /* Images.xcassets */; };
+		AA2F5F15199894C600579F4E /* ansedemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F5F14199894C600579F4E /* ansedemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA2F5F0F199894C600579F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2F5EF0199894C500579F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2F5EF7199894C600579F4E;
+			remoteInfo = ansedem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA2F5EF8199894C600579F4E /* ansedem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ansedem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F5EFC199894C600579F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F5EFD199894C600579F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA2F5EFF199894C600579F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA2F5F00199894C600579F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA2F5F02199894C600579F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA2F5F03199894C600579F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA2F5F06199894C600579F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA2F5F08199894C600579F4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA2F5F0E199894C600579F4E /* ansedemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ansedemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F5F13199894C600579F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F5F14199894C600579F4E /* ansedemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ansedemTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2F5EF5199894C600579F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F5F0B199894C600579F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2F5EEF199894C500579F4E = {
+			isa = PBXGroup;
+			children = (
+				AA2F5EFA199894C600579F4E /* ansedem */,
+				AA2F5F11199894C600579F4E /* ansedemTests */,
+				AA2F5EF9199894C600579F4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2F5EF9199894C600579F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F5EF8199894C600579F4E /* ansedem.app */,
+				AA2F5F0E199894C600579F4E /* ansedemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2F5EFA199894C600579F4E /* ansedem */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F5EFF199894C600579F4E /* AppDelegate.h */,
+				AA2F5F00199894C600579F4E /* AppDelegate.m */,
+				AA2F5F02199894C600579F4E /* ViewController.h */,
+				AA2F5F03199894C600579F4E /* ViewController.m */,
+				AA2F5F05199894C600579F4E /* Main.storyboard */,
+				AA2F5F08199894C600579F4E /* Images.xcassets */,
+				AA2F5EFB199894C600579F4E /* Supporting Files */,
+			);
+			path = ansedem;
+			sourceTree = "<group>";
+		};
+		AA2F5EFB199894C600579F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F5EFC199894C600579F4E /* Info.plist */,
+				AA2F5EFD199894C600579F4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA2F5F11199894C600579F4E /* ansedemTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F5F14199894C600579F4E /* ansedemTests.m */,
+				AA2F5F12199894C600579F4E /* Supporting Files */,
+			);
+			path = ansedemTests;
+			sourceTree = "<group>";
+		};
+		AA2F5F12199894C600579F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F5F13199894C600579F4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2F5EF7199894C600579F4E /* ansedem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2F5F18199894C600579F4E /* Build configuration list for PBXNativeTarget "ansedem" */;
+			buildPhases = (
+				AA2F5EF4199894C600579F4E /* Sources */,
+				AA2F5EF5199894C600579F4E /* Frameworks */,
+				AA2F5EF6199894C600579F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ansedem;
+			productName = ansedem;
+			productReference = AA2F5EF8199894C600579F4E /* ansedem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA2F5F0D199894C600579F4E /* ansedemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2F5F1B199894C600579F4E /* Build configuration list for PBXNativeTarget "ansedemTests" */;
+			buildPhases = (
+				AA2F5F0A199894C600579F4E /* Sources */,
+				AA2F5F0B199894C600579F4E /* Frameworks */,
+				AA2F5F0C199894C600579F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2F5F10199894C600579F4E /* PBXTargetDependency */,
+			);
+			name = ansedemTests;
+			productName = ansedemTests;
+			productReference = AA2F5F0E199894C600579F4E /* ansedemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2F5EF0199894C500579F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Fiets;
+				TargetAttributes = {
+					AA2F5EF7199894C600579F4E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AA2F5F0D199894C600579F4E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AA2F5EF7199894C600579F4E;
+					};
+				};
+			};
+			buildConfigurationList = AA2F5EF3199894C500579F4E /* Build configuration list for PBXProject "ansedem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2F5EEF199894C500579F4E;
+			productRefGroup = AA2F5EF9199894C600579F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2F5EF7199894C600579F4E /* ansedem */,
+				AA2F5F0D199894C600579F4E /* ansedemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2F5EF6199894C600579F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F5F07199894C600579F4E /* Main.storyboard in Resources */,
+				AA2F5F09199894C600579F4E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F5F0C199894C600579F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2F5EF4199894C600579F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F5F04199894C600579F4E /* ViewController.m in Sources */,
+				AA2F5F01199894C600579F4E /* AppDelegate.m in Sources */,
+				AA2F5EFE199894C600579F4E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F5F0A199894C600579F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F5F15199894C600579F4E /* ansedemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA2F5F10199894C600579F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2F5EF7199894C600579F4E /* ansedem */;
+			targetProxy = AA2F5F0F199894C600579F4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA2F5F05199894C600579F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2F5F06199894C600579F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA2F5F16199894C600579F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2F5F17199894C600579F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2F5F19199894C600579F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ansedem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA2F5F1A199894C600579F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ansedem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA2F5F1C199894C600579F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ansedem.app/ansedem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ansedemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AA2F5F1D199894C600579F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ansedem.app/ansedem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ansedemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2F5EF3199894C500579F4E /* Build configuration list for PBXProject "ansedem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F5F16199894C600579F4E /* Debug */,
+				AA2F5F17199894C600579F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2F5F18199894C600579F4E /* Build configuration list for PBXNativeTarget "ansedem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F5F19199894C600579F4E /* Debug */,
+				AA2F5F1A199894C600579F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA2F5F1B199894C600579F4E /* Build configuration list for PBXNativeTarget "ansedemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F5F1C199894C600579F4E /* Debug */,
+				AA2F5F1D199894C600579F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2F5EF0199894C500579F4E /* Project object */;
+}
