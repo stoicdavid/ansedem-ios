@@ -13,10 +13,56 @@
 		AA2F5F07199894C600579F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F5F05199894C600579F4E /* Main.storyboard */; };
 		AA2F5F09199894C600579F4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2F5F08199894C600579F4E /* Images.xcassets */; };
 		AA2F5F15199894C600579F4E /* ansedemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F5F14199894C600579F4E /* ansedemTests.m */; };
+		AA2F5F211999E16100579F4E /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = AA2F5F201999E16100579F4E /* Avenir.ttc */; };
+		AA2F5F241999FFAA00579F4E /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F5F231999FFAA00579F4E /* CalculatorViewController.m */; };
+		AA2F5F27199A06F400579F4E /* DosageCalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F5F26199A06F400579F4E /* DosageCalculatorModel.m */; };
+		AAAFEBB419A150B90080F73E /* Argentina-info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAAFEBB319A150B90080F73E /* Argentina-info.pdf */; };
+		AAB1939A199F16D7000F8A60 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB19399199F16D7000F8A60 /* WebViewController.m */; };
+		AAB193A319A028E6000F8A60 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB193A219A028E6000F8A60 /* LocationViewController.m */; };
+		AAB193A619A02DE1000F8A60 /* ScalesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB193A519A02DE1000F8A60 /* ScalesTableViewController.m */; };
+		AAB193A919A02F2C000F8A60 /* DetailScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB193A819A02F2C000F8A60 /* DetailScaleViewController.m */; };
+		AAB67D9619A0FEAB0006323D /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67D8D19A0FEAB0006323D /* DataViewController.m */; };
+		AAB67D9719A0FEAB0006323D /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67D8F19A0FEAB0006323D /* ModelController.m */; };
+		AAB67D9819A0FEAB0006323D /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67D9119A0FEAB0006323D /* PDFScrollView.m */; };
+		AAB67D9A19A0FEAB0006323D /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67D9519A0FEAB0006323D /* TiledPDFView.m */; };
+		AAB67DA219A0FF820006323D /* Escala-BPS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAB67D9C19A0FF820006323D /* Escala-BPS.pdf */; };
+		AAB67DA319A0FF820006323D /* Escala-Campbell.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAB67D9D19A0FF820006323D /* Escala-Campbell.pdf */; };
+		AAB67DA419A0FF820006323D /* Escala-EVA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAB67D9E19A0FF820006323D /* Escala-EVA.pdf */; };
+		AAB67DA519A0FF820006323D /* Escala-RASS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAB67D9F19A0FF820006323D /* Escala-RASS.pdf */; };
+		AAB67DA619A0FF820006323D /* Escala-SAS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAB67DA019A0FF820006323D /* Escala-SAS.pdf */; };
+		AAB67DA719A0FF820006323D /* Evaluacion-Delirium.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AAB67DA119A0FF820006323D /* Evaluacion-Delirium.pdf */; };
+		AAB67DB119A10A7C0006323D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB67DAE19A109E40006323D /* Foundation.framework */; };
+		AAB67DB319A10A8B0006323D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB67DB219A10A8B0006323D /* UIKit.framework */; };
+		AAB67DB419A10AA20006323D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB67D8319A051670006323D /* MapKit.framework */; };
+		AAB67DB519A10AAA0006323D /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB67DAA19A102500006323D /* QuickLook.framework */; };
+		AAB67DB619A10AB00006323D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB67DA819A102370006323D /* QuartzCore.framework */; };
+		AAB67DB719A10ABC0006323D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB67DAC19A1025A0006323D /* CoreGraphics.framework */; };
+		AAB67DB819A10AD50006323D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB67D8519A051830006323D /* CoreLocation.framework */; };
+		AAB67DBB19A10BA70006323D /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67DBA19A10BA70006323D /* PDFView.m */; };
+		AAB67DBE19A110040006323D /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67DBD19A110040006323D /* InfoViewController.m */; };
+		AAB67DC319A111910006323D /* CountryAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67DC019A111910006323D /* CountryAnnotation.m */; };
+		AAB67DC419A111910006323D /* CountryLabLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67DC219A111910006323D /* CountryLabLocationTableViewController.m */; };
+		AAB67DC719A111E20006323D /* CountryInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67DC619A111E20006323D /* CountryInfoTableViewController.m */; };
+		AAB67DCA19A112750006323D /* DeepInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67DC919A112750006323D /* DeepInfoViewController.m */; };
+		AAB67DCD19A113230006323D /* InfoModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB67DCC19A113230006323D /* InfoModelController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		AA2F5F0F199894C600579F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2F5EF0199894C500579F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2F5EF7199894C600579F4E;
+			remoteInfo = ansedem;
+		};
+		AAB67D7F19A051290006323D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2F5EF0199894C500579F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2F5EF7199894C600579F4E;
+			remoteInfo = ansedem;
+		};
+		AAB67D8119A051290006323D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AA2F5EF0199894C500579F4E /* Project object */;
 			proxyType = 1;
@@ -38,6 +84,55 @@
 		AA2F5F0E199894C600579F4E /* ansedemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ansedemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2F5F13199894C600579F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA2F5F14199894C600579F4E /* ansedemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ansedemTests.m; sourceTree = "<group>"; };
+		AA2F5F201999E16100579F4E /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avenir.ttc; sourceTree = "<group>"; };
+		AA2F5F221999FFAA00579F4E /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		AA2F5F231999FFAA00579F4E /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		AA2F5F25199A06F400579F4E /* DosageCalculatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DosageCalculatorModel.h; sourceTree = "<group>"; };
+		AA2F5F26199A06F400579F4E /* DosageCalculatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DosageCalculatorModel.m; sourceTree = "<group>"; };
+		AAAFEBB319A150B90080F73E /* Argentina-info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Argentina-info.pdf"; sourceTree = "<group>"; };
+		AAB19398199F16D7000F8A60 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AAB19399199F16D7000F8A60 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AAB193A119A028E6000F8A60 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		AAB193A219A028E6000F8A60 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		AAB193A419A02DE1000F8A60 /* ScalesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalesTableViewController.h; sourceTree = "<group>"; };
+		AAB193A519A02DE1000F8A60 /* ScalesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalesTableViewController.m; sourceTree = "<group>"; };
+		AAB193A719A02F2C000F8A60 /* DetailScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailScaleViewController.h; sourceTree = "<group>"; };
+		AAB193A819A02F2C000F8A60 /* DetailScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailScaleViewController.m; sourceTree = "<group>"; };
+		AAB67D8319A051670006323D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AAB67D8519A051830006323D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AAB67D8C19A0FEAB0006323D /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		AAB67D8D19A0FEAB0006323D /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		AAB67D8E19A0FEAB0006323D /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		AAB67D8F19A0FEAB0006323D /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		AAB67D9019A0FEAB0006323D /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		AAB67D9119A0FEAB0006323D /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		AAB67D9419A0FEAB0006323D /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		AAB67D9519A0FEAB0006323D /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		AAB67D9C19A0FF820006323D /* Escala-BPS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Escala-BPS.pdf"; sourceTree = "<group>"; };
+		AAB67D9D19A0FF820006323D /* Escala-Campbell.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Escala-Campbell.pdf"; sourceTree = "<group>"; };
+		AAB67D9E19A0FF820006323D /* Escala-EVA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Escala-EVA.pdf"; sourceTree = "<group>"; };
+		AAB67D9F19A0FF820006323D /* Escala-RASS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Escala-RASS.pdf"; sourceTree = "<group>"; };
+		AAB67DA019A0FF820006323D /* Escala-SAS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Escala-SAS.pdf"; sourceTree = "<group>"; };
+		AAB67DA119A0FF820006323D /* Evaluacion-Delirium.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Evaluacion-Delirium.pdf"; sourceTree = "<group>"; };
+		AAB67DA819A102370006323D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AAB67DAA19A102500006323D /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		AAB67DAC19A1025A0006323D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAB67DAE19A109E40006323D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAB67DB219A10A8B0006323D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAB67DB919A10BA70006323D /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		AAB67DBA19A10BA70006323D /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		AAB67DBC19A110040006323D /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		AAB67DBD19A110040006323D /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		AAB67DBF19A111910006323D /* CountryAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryAnnotation.h; sourceTree = "<group>"; };
+		AAB67DC019A111910006323D /* CountryAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryAnnotation.m; sourceTree = "<group>"; };
+		AAB67DC119A111910006323D /* CountryLabLocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryLabLocationTableViewController.h; sourceTree = "<group>"; };
+		AAB67DC219A111910006323D /* CountryLabLocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryLabLocationTableViewController.m; sourceTree = "<group>"; };
+		AAB67DC519A111E20006323D /* CountryInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryInfoTableViewController.h; sourceTree = "<group>"; };
+		AAB67DC619A111E20006323D /* CountryInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryInfoTableViewController.m; sourceTree = "<group>"; };
+		AAB67DC819A112750006323D /* DeepInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepInfoViewController.h; sourceTree = "<group>"; };
+		AAB67DC919A112750006323D /* DeepInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepInfoViewController.m; sourceTree = "<group>"; };
+		AAB67DCB19A113230006323D /* InfoModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoModelController.h; sourceTree = "<group>"; };
+		AAB67DCC19A113230006323D /* InfoModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoModelController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +140,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB67DB819A10AD50006323D /* CoreLocation.framework in Frameworks */,
+				AAB67DB719A10ABC0006323D /* CoreGraphics.framework in Frameworks */,
+				AAB67DB619A10AB00006323D /* QuartzCore.framework in Frameworks */,
+				AAB67DB519A10AAA0006323D /* QuickLook.framework in Frameworks */,
+				AAB67DB419A10AA20006323D /* MapKit.framework in Frameworks */,
+				AAB67DB319A10A8B0006323D /* UIKit.framework in Frameworks */,
+				AAB67DB119A10A7C0006323D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +163,7 @@
 		AA2F5EEF199894C500579F4E = {
 			isa = PBXGroup;
 			children = (
+				AAB67DB019A10A670006323D /* Frameworks */,
 				AA2F5EFA199894C600579F4E /* ansedem */,
 				AA2F5F11199894C600579F4E /* ansedemTests */,
 				AA2F5EF9199894C600579F4E /* Products */,
@@ -79,11 +182,47 @@
 		AA2F5EFA199894C600579F4E /* ansedem */ = {
 			isa = PBXGroup;
 			children = (
+				AAB67D9B19A0FF680006323D /* PDFs */,
+				AAB67D8C19A0FEAB0006323D /* DataViewController.h */,
+				AAB67D8D19A0FEAB0006323D /* DataViewController.m */,
+				AAB67DBC19A110040006323D /* InfoViewController.h */,
+				AAB67DBD19A110040006323D /* InfoViewController.m */,
+				AAB67DCB19A113230006323D /* InfoModelController.h */,
+				AAB67DCC19A113230006323D /* InfoModelController.m */,
+				AAB67D8E19A0FEAB0006323D /* ModelController.h */,
+				AAB67D8F19A0FEAB0006323D /* ModelController.m */,
+				AAB67D9019A0FEAB0006323D /* PDFScrollView.h */,
+				AAB67D9119A0FEAB0006323D /* PDFScrollView.m */,
+				AAB67DB919A10BA70006323D /* PDFView.h */,
+				AAB67DBA19A10BA70006323D /* PDFView.m */,
+				AAB67D9419A0FEAB0006323D /* TiledPDFView.h */,
+				AAB67D9519A0FEAB0006323D /* TiledPDFView.m */,
+				AA2F5F1F1999E0BC00579F4E /* fonts */,
 				AA2F5EFF199894C600579F4E /* AppDelegate.h */,
+				AAB67DBF19A111910006323D /* CountryAnnotation.h */,
+				AAB67DC019A111910006323D /* CountryAnnotation.m */,
+				AAB67DC119A111910006323D /* CountryLabLocationTableViewController.h */,
+				AAB67DC219A111910006323D /* CountryLabLocationTableViewController.m */,
+				AAB67DC519A111E20006323D /* CountryInfoTableViewController.h */,
+				AAB67DC619A111E20006323D /* CountryInfoTableViewController.m */,
+				AA2F5F25199A06F400579F4E /* DosageCalculatorModel.h */,
+				AA2F5F26199A06F400579F4E /* DosageCalculatorModel.m */,
 				AA2F5F00199894C600579F4E /* AppDelegate.m */,
 				AA2F5F02199894C600579F4E /* ViewController.h */,
 				AA2F5F03199894C600579F4E /* ViewController.m */,
+				AA2F5F221999FFAA00579F4E /* CalculatorViewController.h */,
+				AA2F5F231999FFAA00579F4E /* CalculatorViewController.m */,
 				AA2F5F05199894C600579F4E /* Main.storyboard */,
+				AAB193A719A02F2C000F8A60 /* DetailScaleViewController.h */,
+				AAB193A819A02F2C000F8A60 /* DetailScaleViewController.m */,
+				AAB67DC819A112750006323D /* DeepInfoViewController.h */,
+				AAB67DC919A112750006323D /* DeepInfoViewController.m */,
+				AAB193A419A02DE1000F8A60 /* ScalesTableViewController.h */,
+				AAB193A519A02DE1000F8A60 /* ScalesTableViewController.m */,
+				AAB193A119A028E6000F8A60 /* LocationViewController.h */,
+				AAB193A219A028E6000F8A60 /* LocationViewController.m */,
+				AAB19398199F16D7000F8A60 /* WebViewController.h */,
+				AAB19399199F16D7000F8A60 /* WebViewController.m */,
 				AA2F5F08199894C600579F4E /* Images.xcassets */,
 				AA2F5EFB199894C600579F4E /* Supporting Files */,
 			);
@@ -114,6 +253,42 @@
 				AA2F5F13199894C600579F4E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA2F5F1F1999E0BC00579F4E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F5F201999E16100579F4E /* Avenir.ttc */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		AAB67D9B19A0FF680006323D /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				AAAFEBB319A150B90080F73E /* Argentina-info.pdf */,
+				AAB67D9C19A0FF820006323D /* Escala-BPS.pdf */,
+				AAB67D9D19A0FF820006323D /* Escala-Campbell.pdf */,
+				AAB67D9E19A0FF820006323D /* Escala-EVA.pdf */,
+				AAB67D9F19A0FF820006323D /* Escala-RASS.pdf */,
+				AAB67DA019A0FF820006323D /* Escala-SAS.pdf */,
+				AAB67DA119A0FF820006323D /* Evaluacion-Delirium.pdf */,
+			);
+			name = PDFs;
+			sourceTree = "<group>";
+		};
+		AAB67DB019A10A670006323D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB67DB219A10A8B0006323D /* UIKit.framework */,
+				AAB67DAE19A109E40006323D /* Foundation.framework */,
+				AAB67DAC19A1025A0006323D /* CoreGraphics.framework */,
+				AAB67DAA19A102500006323D /* QuickLook.framework */,
+				AAB67DA819A102370006323D /* QuartzCore.framework */,
+				AAB67D8519A051830006323D /* CoreLocation.framework */,
+				AAB67D8319A051670006323D /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +323,8 @@
 			);
 			dependencies = (
 				AA2F5F10199894C600579F4E /* PBXTargetDependency */,
+				AAB67D8019A051290006323D /* PBXTargetDependency */,
+				AAB67D8219A051290006323D /* PBXTargetDependency */,
 			);
 			name = ansedemTests;
 			productName = ansedemTests;
@@ -197,7 +374,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2F5F07199894C600579F4E /* Main.storyboard in Resources */,
+				AAB67DA219A0FF820006323D /* Escala-BPS.pdf in Resources */,
+				AAB67DA419A0FF820006323D /* Escala-EVA.pdf in Resources */,
+				AAB67DA619A0FF820006323D /* Escala-SAS.pdf in Resources */,
 				AA2F5F09199894C600579F4E /* Images.xcassets in Resources */,
+				AAB67DA319A0FF820006323D /* Escala-Campbell.pdf in Resources */,
+				AAB67DA719A0FF820006323D /* Evaluacion-Delirium.pdf in Resources */,
+				AA2F5F211999E16100579F4E /* Avenir.ttc in Resources */,
+				AAAFEBB419A150B90080F73E /* Argentina-info.pdf in Resources */,
+				AAB67DA519A0FF820006323D /* Escala-RASS.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +400,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB67D9A19A0FEAB0006323D /* TiledPDFView.m in Sources */,
+				AAB67DCD19A113230006323D /* InfoModelController.m in Sources */,
+				AAB193A919A02F2C000F8A60 /* DetailScaleViewController.m in Sources */,
+				AAB67DC719A111E20006323D /* CountryInfoTableViewController.m in Sources */,
+				AAB67DBE19A110040006323D /* InfoViewController.m in Sources */,
+				AAB67D9719A0FEAB0006323D /* ModelController.m in Sources */,
 				AA2F5F04199894C600579F4E /* ViewController.m in Sources */,
+				AAB1939A199F16D7000F8A60 /* WebViewController.m in Sources */,
+				AAB67D9619A0FEAB0006323D /* DataViewController.m in Sources */,
+				AAB67DCA19A112750006323D /* DeepInfoViewController.m in Sources */,
+				AAB193A319A028E6000F8A60 /* LocationViewController.m in Sources */,
+				AAB67DC419A111910006323D /* CountryLabLocationTableViewController.m in Sources */,
+				AA2F5F27199A06F400579F4E /* DosageCalculatorModel.m in Sources */,
+				AAB67DBB19A10BA70006323D /* PDFView.m in Sources */,
+				AAB67D9819A0FEAB0006323D /* PDFScrollView.m in Sources */,
 				AA2F5F01199894C600579F4E /* AppDelegate.m in Sources */,
+				AAB67DC319A111910006323D /* CountryAnnotation.m in Sources */,
+				AA2F5F241999FFAA00579F4E /* CalculatorViewController.m in Sources */,
 				AA2F5EFE199894C600579F4E /* main.m in Sources */,
+				AAB193A619A02DE1000F8A60 /* ScalesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +438,16 @@
 			isa = PBXTargetDependency;
 			target = AA2F5EF7199894C600579F4E /* ansedem */;
 			targetProxy = AA2F5F0F199894C600579F4E /* PBXContainerItemProxy */;
+		};
+		AAB67D8019A051290006323D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2F5EF7199894C600579F4E /* ansedem */;
+			targetProxy = AAB67D7F19A051290006323D /* PBXContainerItemProxy */;
+		};
+		AAB67D8219A051290006323D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2F5EF7199894C600579F4E /* ansedem */;
+			targetProxy = AAB67D8119A051290006323D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -404,6 +616,7 @@
 				AA2F5F1A199894C600579F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA2F5F1B199894C600579F4E /* Build configuration list for PBXNativeTarget "ansedemTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +625,7 @@
 				AA2F5F1D199894C600579F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo_03.png"]];
+
+    self.navigationController.navigationBar.topItem.title = @"";
+
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
