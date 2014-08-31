@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CUe-Uu-FzF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CUe-Uu-FzF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -20,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUl-ir-ocb">
-                                <rect key="frame" x="0.0" y="249" width="160" height="173"/>
+                                <rect key="frame" x="0.0" y="231" width="160" height="173"/>
                                 <state key="normal" image="btn_sin_alpha_dosificacion">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -29,9 +30,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKD-aY-UBy">
-                                <rect key="frame" x="74" y="67" width="171" height="116"/>
+                                <rect key="frame" x="50" y="83" width="118" height="117"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="171" id="DmG-4z-lrl"/>
+                                    <constraint firstAttribute="width" constant="118" id="NSd-ap-TNw"/>
+                                    <constraint firstAttribute="height" constant="117" id="fEW-N6-yaU"/>
                                 </constraints>
                                 <state key="normal" image="btn_sin_alpha_localizador">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -41,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmg-58-bxp">
-                                <rect key="frame" x="101" y="464" width="117" height="116"/>
+                                <rect key="frame" x="70" y="433" width="117" height="116"/>
                                 <state key="normal" image="btn_sin_alpha_informacion">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -50,7 +52,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCv-98-cuB">
-                                <rect key="frame" x="169" y="180" width="117" height="116"/>
+                                <rect key="frame" x="159" y="176" width="117" height="116"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="eOT-ea-5rZ"/>
+                                </constraints>
                                 <state key="normal" image="btn_sin_alpha_sitioweb">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -59,7 +64,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnn-f9-Qiu">
-                                <rect key="frame" x="169" y="309" width="117" height="116"/>
+                                <rect key="frame" x="167" y="320" width="117" height="116"/>
                                 <state key="normal" image="btn_sin_alpha_escalas">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -70,23 +75,31 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="pnn-f9-Qiu" firstAttribute="leading" secondItem="oCv-98-cuB" secondAttribute="leading" id="2aC-ec-AZP"/>
-                            <constraint firstAttribute="bottom" secondItem="qmg-58-bxp" secondAttribute="bottom" constant="20" symbolic="YES" id="5Br-CC-Bby"/>
+                            <constraint firstItem="zKD-aY-UBy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="3ku-XE-9ep"/>
                             <constraint firstItem="vxS-YZ-ASw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6zK-Ch-v8e"/>
-                            <constraint firstItem="qmg-58-bxp" firstAttribute="top" secondItem="QUl-ir-ocb" secondAttribute="bottom" constant="42" id="HOd-Gh-zFO"/>
-                            <constraint firstItem="oCv-98-cuB" firstAttribute="leading" secondItem="zKD-aY-UBy" secondAttribute="trailing" constant="-76" id="K3v-NS-Maj"/>
+                            <constraint firstItem="oCv-98-cuB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="159" id="B1i-Io-F7U"/>
+                            <constraint firstItem="QUl-ir-ocb" firstAttribute="leading" secondItem="y3c-jy-aDJ" secondAttribute="leading" id="BFy-Jt-bvb"/>
+                            <constraint firstItem="zKD-aY-UBy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="34" id="Iuj-b8-qvf"/>
+                            <constraint firstItem="qmg-58-bxp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="54" id="MFK-QY-zwa"/>
                             <constraint firstAttribute="trailing" secondItem="vxS-YZ-ASw" secondAttribute="trailing" id="SbZ-se-mK3"/>
-                            <constraint firstItem="pnn-f9-Qiu" firstAttribute="top" secondItem="oCv-98-cuB" secondAttribute="bottom" constant="13" id="c5t-Ei-1Ta"/>
-                            <constraint firstItem="zKD-aY-UBy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="74" id="crt-aX-1hB"/>
                             <constraint firstAttribute="bottom" secondItem="vxS-YZ-ASw" secondAttribute="bottom" id="gSV-E7-WoG"/>
-                            <constraint firstItem="oCv-98-cuB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="116" id="iv9-g3-r6a"/>
+                            <constraint firstItem="QUl-ir-ocb" firstAttribute="top" secondItem="zKD-aY-UBy" secondAttribute="bottom" constant="31" id="kUy-1q-g7w"/>
                             <constraint firstItem="vxS-YZ-ASw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="klr-CS-Zpv"/>
-                            <constraint firstItem="vxS-YZ-ASw" firstAttribute="leading" secondItem="QUl-ir-ocb" secondAttribute="leading" id="o4Q-Dl-h4C"/>
-                            <constraint firstItem="zKD-aY-UBy" firstAttribute="centerX" secondItem="qmg-58-bxp" secondAttribute="centerX" id="o6a-bn-gck"/>
-                            <constraint firstItem="zKD-aY-UBy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="3" id="vZQ-Go-ejs"/>
+                            <constraint firstItem="qmg-58-bxp" firstAttribute="top" secondItem="QUl-ir-ocb" secondAttribute="bottom" constant="29" id="nZY-Oh-oij"/>
+                            <constraint firstItem="pnn-f9-Qiu" firstAttribute="top" secondItem="oCv-98-cuB" secondAttribute="bottom" constant="28" id="seK-I5-5XL"/>
+                            <constraint firstItem="pnn-f9-Qiu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="167" id="u7H-W2-cUE"/>
+                            <constraint firstItem="oCv-98-cuB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="yF9-nw-SO5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QWo-rJ-mbi"/>
+                    <connections>
+                        <outlet property="contentView" destination="8bC-Xf-vdC" id="RHf-OJ-NNc"/>
+                        <outlet property="dosisBtn" destination="QUl-ir-ocb" id="SQp-5u-yDl"/>
+                        <outlet property="infoBtn" destination="qmg-58-bxp" id="7L3-7e-VtJ"/>
+                        <outlet property="localizationBtn" destination="zKD-aY-UBy" id="RMl-rA-2GD"/>
+                        <outlet property="scaleBtn" destination="pnn-f9-Qiu" id="Lkh-de-wef"/>
+                        <outlet property="webBtn" destination="oCv-98-cuB" id="0me-q6-Jvu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -306,7 +319,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ycm-4Q-JbB" customClass="PDFScrollView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="40" width="320" height="568"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -398,7 +411,7 @@ el torrente circulatorio venoso, en cuyo caso se denomina infusión intravenos
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rW0-iZ-Wqx">
                                 <rect key="frame" x="182" y="388" width="91" height="30"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="22"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="next"/>
                                 <connections>
                                     <action selector="calculateDose:" destination="EAX-UF-bxD" eventType="editingDidEnd" id="vb7-3t-9aQ"/>
                                 </connections>
@@ -418,7 +431,7 @@ el torrente circulatorio venoso, en cuyo caso se denomina infusión intravenos
                                     <constraint firstAttribute="width" constant="91" id="Io7-I6-wRn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="22"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
                                     <action selector="calculateDose:" destination="EAX-UF-bxD" eventType="editingDidEnd" id="XCw-vs-QC7"/>
                                 </connections>
@@ -560,7 +573,7 @@ el torrente circulatorio venoso, en cuyo caso se denomina infusión intravenos
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pCV-bn-TnO" customClass="PDFScrollView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="494"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

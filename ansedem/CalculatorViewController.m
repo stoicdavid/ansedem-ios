@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo_03.png"]];
+    //self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo_03.png"]];
     self.calculator = [[DosageCalculatorModel alloc]initWithDefaultKg:self.kilog.text.doubleValue Dose:self.dosis.text.doubleValue];
     [self.kilog setText:@"0"];
     [self.kilog setTextColor:[UIColor lightGrayColor]];
@@ -26,6 +26,8 @@
     
     [self.dosis setText:@"0"];
     [self.dosis setTextColor:[UIColor lightGrayColor]];
+    NSString* myNewString = [NSString localizedStringWithFormat:@"%.2f ml/hr", 0.0f];
+    self.results.text = myNewString;
     
     self.kilog.delegate = self;
     self.dosis.delegate = self;
@@ -79,13 +81,18 @@
 - (void) refreshUI{
     
     double resultado = self.calculator.calculateResult;
-    NSString* myNewString = [NSString stringWithFormat:@"%.2f ml/hr", resultado];
+    NSString* myNewString = [NSString localizedStringWithFormat:@"%.2f ml/hr", resultado];
     self.results.text = myNewString;
 }
 
 - (IBAction)calculateDose:(id)sender {
-    self.calculator.kilo = self.kilog.text.doubleValue;
-    self.calculator.dose = self.dosis.text.doubleValue;
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    NSNumber *kilo = [formatter numberFromString:self.kilog.text];
+    NSNumber *dosis = [formatter numberFromString:self.dosis.text];
+    
+    self.calculator.kilo = [kilo doubleValue];
+    self.calculator.dose = [dosis doubleValue];
     [self refreshUI];
     
 }

@@ -151,6 +151,8 @@
      If this step were omitted, the content scale factor would be 2.0 on high resolution screens, which would cause the CATiledLayer to ask for tiles of the wrong scale.
      */
     self.tiledPDFView.contentScaleFactor = 1.0;
+    //self.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
+    //self.contentOffset = CGPointMake(0,-64);
 }
 
 
